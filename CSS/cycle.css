@@ -1,0 +1,1172 @@
+.body {
+    margin: 0;
+}
+*{
+    outline: none;
+}
+
+.cycleimage {
+    background-image: linear-gradient(-13deg, #fff 30%, #274d5a 20%);
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.empty {
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background-color: #fff;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    width: 97%;
+    height: 82px;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.togglelogo img {
+    width: 40px;
+    height: 30px;
+}
+
+.cycle {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+}
+
+.cyclelogo {
+    z-index: 999;
+}
+
+.firstside {
+    z-index: 999;
+}
+
+.h3best {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.h3best span {
+    text-align: center;
+    background-color: #f7c17b;
+    color: #325662;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cycle10 {
+    padding-left: 90px;
+}
+
+.cycle10 img {
+    width: 700px;
+    height: 500px;
+}
+
+.cycle1 {
+    padding-left: 95px;
+}
+
+.secondside {
+    height: 410px;
+    padding-right: 70px;
+    position: relative;
+}
+
+.secondsideh1 {
+    width: 50%;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Raleway ExtraBold', sans-serif;
+}
+
+.secondsideh1 h1 {
+    margin-bottom: 0;
+}
+
+.secondsidep p {
+    float: left;
+    font-size: 17px;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 550;
+    font-family: Poppins, sans-serif;
+    width: 445px;
+    height: 48px;
+}
+
+.secondsidebutton a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.secondsidebutton button {
+    width: 180px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f7c17b;
+    padding: 8px 0;
+    border: 0;
+    font-family: Poppins, sans-serif;
+    line-height: 1.80857;
+    font-weight: 400
+}
+
+.secondsidebutton button:hover {
+    background-color: #fff;
+}
+
+.secondsidebutton:hover a {
+    color: #111;
+}
+
+.secondsideicon {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.iconleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 68px;
+    background-color: #f7c17b;
+    color: #fff;
+    font-size: 40px;
+}
+
+.iconright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 68px;
+    background-color: #274d5a;
+    color: #fff;
+    font-size: 40px;
+}
+
+.iconright:hover {
+    background-color: #f7c17b;
+}
+
+.ourcycle h1 {
+    width: 100%;
+    font-size: 45px;
+    color: #111;
+    text-align: center;
+    font-weight: 800;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+}
+
+.ourcycle p {
+    width: 100%;
+    font-size: 19px;
+    color: #242424;
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+
+.ourcycle {
+    padding-bottom: 80px;
+}
+
+.cycle1 {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.cyclebutton0 {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.cyclebutton0 button:hover {
+    background-color: #f7c17b;
+}
+
+.cyclebutton1 a {
+    text-decoration: none;
+    color: #fff
+}
+
+.cyclebutton1 button {
+    width: 100%;
+    font-size: 18px;
+    background-color: #325662;
+    padding: 8px 25px;
+    text-align: center;
+    font-weight: 700;
+    border: 0;
+    font-family: Poppins, sans-serif;
+    line-height: 1.80857;
+}
+
+.cycleempty {
+    position: absolute;
+    height: 630px;
+    width: 420px;
+    background-color: #f7c17b;
+    z-index: -9;
+    clip-path: polygon(0 0, 75% 8%, 75% 80%, 0% 100%);
+}
+
+.cycleside1 {
+    position: relative;
+    width: 50%;
+    top: 0%;
+    left: 0%;
+}
+
+.cycleside1 img {
+    width: 400px;
+    height: 440px;
+    padding-left: 70px;
+}
+
+.cycleside1 h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #325662;
+    text-align: center;
+    margin-left: 290px;
+    margin-top: 70px;
+}
+
+.cycleside2 {
+    margin-left: 100px;
+    height: 600px;
+    margin-right: 70px;
+    position: relative;
+}
+.dash {
+    height: 2px;
+    width: 170px;
+    background-color: #325662;
+    position: absolute;
+    top: 70px;
+}
+
+.cycleside2 h1 {
+    font-size: 45px;
+    color: #111;
+    text-align: right;
+    font-weight: 800;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.cycleside2 p {
+    font-size: 19px;
+    color: #242424;
+    text-align: left;
+    margin: 0;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    line-height: 30px
+}
+
+.cycleprice {
+    padding-left: 40px;
+    width: 100%;
+    text-align: right;
+    font-size: 21px;
+    color: #222;
+    font-weight: 800;
+    font-family: Poppins, sans-serif;
+}
+
+.cycledollar {
+    color: #f7c17b;
+}
+
+.cyclemoney {
+    color: #325662;
+}
+
+.readmore a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.readmore button {
+    width: 180px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f7c17b;
+    padding: 8px 0;
+    border: 0;
+    font-family: Poppins, sans-serif;
+    line-height: 1.80857;
+    font-weight: 400
+}
+
+.readmore button:hover {
+    background-color: #325662;
+}
+
+.readmore a:hover {
+    color: #fff;
+}
+
+.readmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 100px 0;
+}
+
+.cyclestorespecial1 {
+    padding-top: 50px;
+}
+
+.cyclestorespecial1 h1 {
+    width: 100%;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+}
+
+.cyclestorespecial1 p {
+    width: 800px;
+    height: 72px;
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    margin-left: 280px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+
+.cyclestorespecial {
+    padding-bottom: 80px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/about-bg.png);
+}
+
+.imageofcycle img {
+    width: 444px;
+    height: 352px;
+    z-index: 9;
+
+}
+
+.imageofcycle {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+.sam {
+    position: relative;
+    top: 0px;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.sam div {
+    position: absolute;
+    height: 500px;
+    width: 420px;
+    background-color: #f3f2f2;
+    clip-path: polygon(0 0px, 80% 3%, 80% 78%, 0% 100%);
+}
+
+.readmore1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.readmore1 button {
+    width: 180px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f7c17b;
+    padding: 8px 0;
+    border: 0;
+    font-family: Poppins, sans-serif;
+    line-height: 1.80857;
+    font-weight: 400
+}
+
+.readmore1 button:hover {
+    background-color: #325662;
+}
+
+.readmore1 a:hover {
+    color: #fff;
+}
+
+.readmore1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 300px;
+}
+
+.quoteicon {
+    display: flex;
+    justify-content: center;
+    width: 87%;
+    height: 420px;
+    border: 1px solid #fff;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0, .31);
+    margin-left: 60px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.saysCustomers {
+    border: 1px dotted rgb(196, 194, 194);
+    margin: 100px;
+    position: relative;
+}
+
+.saysCustomers h1 {
+    width: 100%;
+    font-size: 45px;
+    color: #111;
+    text-align: center;
+    font-weight: 800;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+}
+
+.quoteicon1 {
+    width: 50%;
+}
+
+.quoteicon1 img {
+    height: 416px;
+    width: 280px;
+}
+
+.quoteicon2 {
+    padding: 20px;
+    padding-left: 60px;
+}
+
+.quoteicon2 p {
+    font-size: 19px;
+    color: #333233;
+    text-align: left;
+    margin: 0;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.quoteicon2 h3 {
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    color: #1d1f1e;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.quoteicon2 img {
+    padding-top: 50px;
+}
+
+.secondsideicon1 {
+    display: flex;
+    position: absolute;
+    right: 510px;
+    top: 94.5%;
+}
+
+.iconleft1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 68px;
+    background-color: #191616;
+    color: #fff;
+    font-size: 40px;
+}
+
+.iconright1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 68px;
+    background-color: #f7c17b;
+    color: #fff;
+    font-size: 40px;
+}
+
+.iconleft1:hover {
+    background-color: #f7c17b;
+}
+
+.lastsector {
+    background-color: #355764;
+    padding-bottom: 10px;
+}
+
+.lastsector h1 {
+    width: 100%;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+}
+
+.para {
+    width: 900px;
+    height: 72px;
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    margin-left: 250px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+
+.lastbox {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.lastfirst {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.lastfirst:hover {
+    box-shadow: 0 1px 9px 1px #fff;
+}
+
+.imghover {
+    height: 40%;
+    overflow: hidden;
+}
+
+.imghover img:hover {
+    height: 200%;
+    transition: ease-in-out,0.5s;
+}
+
+.lastpadding{
+    height: 60%;
+    overflow: hidden;
+}
+.lastfirst img {
+    width: 350px;
+    height: 100%;
+}
+
+
+.lastfirst p {
+    width: 300px;
+    height: 96px;
+    text-align: left;
+    margin-left: 0;
+    color: #2a2929;
+    font-size: 17px;
+    padding-top: 0px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+}
+
+.lastflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lastfirst h2 {
+    font-size: 22px;
+    color: #161616;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+}
+
+.lastpadding {
+    margin: 15px;
+}
+
+.lastflex span {
+    font-size: 16px;
+    color: #dcdcd9;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+}
+
+.lastfirst:hover span {
+    color: #161616;
+}
+
+.lastinput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.lastinput1 input {
+    width: 550px;
+    height: 15px;
+    padding: 23px;
+    color: black;
+    font-size: 18px;
+    background-color: #fefeff;
+    border: 0;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.lastinput4 input {
+    width: 550px;
+    height: 65px;
+    padding: 23px;
+    color: #292929;
+    font-size: 18px;
+    background-color: #fefeff;
+    border: 0;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.send a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.send button {
+    width: 180px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f7c17b;
+    padding: 8px 0;
+    border: 0;
+    font-family: Poppins, sans-serif;
+    line-height: 1.80857;
+    font-weight: 400;
+    border-radius: 15px;
+}
+
+.send button:hover {
+    background-color: #fff;
+}
+
+.send button:hover a {
+    color: #111;
+}
+
+.lasttab {
+    display: flex;
+    width: 100%;
+}
+
+.lasttab1 {
+    width: 65%;
+    height: 400px;
+    background-color: #111;
+}
+
+.lasttab1 pre {
+    color: #fff;
+}
+
+.lasttab2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 350px;
+}
+
+.mapicon span {
+    color: #949292;
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.80857;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.callicon span {
+    color: #949292;
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.80857;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.callicon {
+    width: 375px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.mapicon {
+    width: 375px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.mailicon {
+    width: 375px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.mailicon span {
+    color: #949292;
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.80857;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.icons img {
+    padding-right: 5px;
+
+}
+
+.icons {
+    height: 40px;
+    padding-top: 20px;
+}
+
+.lasttab input {
+    width: 70%;
+    font-size: 16px;
+    color: #949292;
+    background-color: #fff;
+    padding: 15px 15px;
+    margin-top: 20px;
+    border: 0;
+}
+
+.lasttab button {
+    width: 180px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #f7c17b;
+    color: #dbdbdb;
+    padding: 8px 0;
+    border: 0;
+    font-family: Poppins, sans-serif;
+    line-height: 1.80857;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.lasttab button:hover {
+    background-color: #fff;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+    .cycleimage {
+        width: 1200px;
+    }
+
+    .cycle10 img {
+        width: 450px;
+    }
+
+
+    .empty {
+        width: 400px;
+    }
+
+    .firstside {
+        width: 400px;
+    }
+
+    .ourcycle {
+        width: 1200px;
+    }
+
+    .cycle1 {
+        width: 1000px;
+    }
+
+    .cycleside2 {
+        margin-left: 50px;
+    }
+
+    .readmore {
+        width: 1200px;
+    }
+
+    .cyclestorespecial {
+        width: 1200px;
+    }
+
+    .cyclestorespecial1 p {
+        width: 1000px;
+        margin-left: 20px;
+
+    }
+
+    .readmore1 {
+        width: 1200px;
+    }
+
+    .saysCustomers {
+        width: 1200px;
+    }
+
+    .quoteicon {
+        margin-left: 40px;
+    }
+
+    .lastsector {
+        width: 1200px;
+    }
+
+    .para {
+        margin-left: 100px;
+    }
+
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .cycleimage {
+        width: 1260px;
+    }
+
+    .cycle10 img {
+        width: 600px;
+    }
+
+    .empty {
+        width: 450px;
+    }
+
+    .firstside {
+        width: 500px;
+    }
+
+    .ourcycle {
+        width: 1260px;
+    }
+
+    .cycle1 {
+        width: 1100px;
+    }
+
+    .cycleside2 {
+        margin-left: 50px;
+    }
+
+    .readmore {
+        width: 1260px;
+    }
+
+    .cyclestorespecial {
+        width: 1260px;
+    }
+
+    .cyclestorespecial1 p {
+        width: 900px;
+        margin-left: 200px;
+
+    }
+
+    .readmore1 {
+        width: 1260px;
+    }
+
+    .saysCustomers {
+        width: 1260px;
+        margin: 10px;
+    }
+
+    .quoteicon {
+        margin-left: 50px;
+    }
+
+    .lastsector {
+        width: 1260px;
+    }
+
+    .para {
+        margin-left: 150px;
+    }
+
+    .secondsideicon1 {
+        right: 570px;
+        top: 94.5%;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .cycleimage {
+        width: 1260px;
+    }
+
+    .cycle10 img {
+        width: 600px;
+    }
+
+    .empty {
+        width: 450px;
+    }
+
+    .firstside {
+        width: 500px;
+    }
+
+    .ourcycle {
+        width: 1260px;
+    }
+
+    .cycle1 {
+        width: 1100px;
+    }
+
+    .cycleside2 {
+        margin-left: 50px;
+    }
+
+    .readmore {
+        width: 1260px;
+    }
+
+    .cyclestorespecial {
+        width: 1260px;
+    }
+
+    .cyclestorespecial1 p {
+        width: 900px;
+        margin-left: 200px;
+
+    }
+
+    .readmore1 {
+        width: 1260px;
+    }
+
+    .saysCustomers {
+        width: 1260px;
+        margin: 10px;
+    }
+
+    .quoteicon {
+        margin-left: 50px;
+    }
+
+    .lastsector {
+        width: 1260px;
+    }
+
+    .para {
+        margin-left: 150px;
+    }
+
+    .secondsideicon1 {
+        right: 570px;
+        top: 94.5%;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .cycleimage {
+        width: 1150px;
+    }
+
+    .cycle10 img {
+        width: 500px;
+    }
+
+
+    .empty {
+        width: 400px;
+    }
+
+    .firstside {
+        width: 500px;
+    }
+
+    .ourcycle {
+        width: 1150px;
+    }
+
+    .cycle1 {
+        width: 1000px;
+    }
+
+    .cycleside2 {
+        margin-left: 50px;
+    }
+
+    .readmore {
+        width: 1150px;
+    }
+
+    .cyclestorespecial {
+        width: 1150px;
+    }
+
+    .cyclestorespecial1 p {
+        width: 800px;
+        margin-left: 200px;
+
+    }
+
+    .readmore1 {
+        width: 1150px;
+    }
+
+    .saysCustomers {
+        width: 1150px;
+        margin: 10px;
+    }
+
+    .quoteicon {
+        margin-left: 40px;
+    }
+
+    .lastsector {
+        width: 1150px;
+    }
+
+    .para {
+        margin-left: 100px;
+    }
+
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .cycleimage {
+        width: 1260px;
+    }
+
+    .cycle10 img {
+        width: 600px;
+    }
+
+    .empty {
+        width: 450px;
+    }
+
+    .firstside {
+        width: 500px;
+    }
+
+    .ourcycle {
+        width: 1260px;
+    }
+
+    .cycle1 {
+        width: 1100px;
+    }
+
+    .cycleside2 {
+        margin-left: 50px;
+    }
+
+    .readmore {
+        width: 1260px;
+    }
+
+    .cyclestorespecial {
+        width: 1260px;
+    }
+
+    .cyclestorespecial1 p {
+        width: 900px;
+        margin-left: 200px;
+
+    }
+
+    .readmore1 {
+        width: 1260px;
+    }
+
+    .saysCustomers {
+        width: 1260px;
+        margin: 10px;
+    }
+
+    .quoteicon {
+        margin-left: 50px;
+    }
+
+    .lastsector {
+        width: 1260px;
+    }
+
+    .para {
+        margin-left: 150px;
+    }
+
+    .secondsideicon1 {
+        right: 570px;
+        top: 94.5%;
+    }
+
+}

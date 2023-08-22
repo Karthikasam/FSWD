@@ -1,0 +1,37 @@
+h3{
+    color:aqua;font-size: 70px;
+}
+#trialcss{
+    color:cornflowerblue;font-size: 50px;
+}
+.trialcss1{
+    color:darkgreen;font-size: 50px;
+}
+h6{
+    color:chartreuse;font-size: 50px;
+}
+/**{
+    color:darkmagenta;font-size: 50px;
+}*/
+div > h1{
+    color:darkorchid;
+}
+div label,p{
+    color:darkcyan;
+}
+span+p{
+    color:fuchsia;
+}
+option~p{
+    color:hotpink;
+}
+[type=email]{
+    color:red;
+}
+.sam{
+    color:silver;
+    border: 100px solid red;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px violet ;
+}

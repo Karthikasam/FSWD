@@ -1,0 +1,9 @@
+.sam+p{
+    color:blueviolet;
+}
+p+h1{
+    color:blue
+}
+h1~label{
+    color:brown;
+}

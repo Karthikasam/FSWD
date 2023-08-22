@@ -1,0 +1,15 @@
+#first{
+    color:brown;
+}
+.para{
+    color:lime;
+}
+div > label{
+    color:rebeccapurple;
+}
+div  h1{
+    color:crimson;
+}
+.parents{
+    color:red;
+}

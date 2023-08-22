@@ -1,0 +1,23 @@
+.style{
+    border: 5px solid black;
+    border-radius: 5px;
+    width:80%;
+    box-shadow: 10px 10px 20px red;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+.sams{
+    width:50%;
+    border: 5px solid brown;
+}
+.sam{
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 50vw;
+    box-shadow: 10px 10px 20px red;
+    margin-top: 20px;
+    padding: 20px;
+
+
+}

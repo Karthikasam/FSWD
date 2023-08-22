@@ -1,0 +1,278 @@
+*{
+    outline: none;
+}
+#register {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background-color: #f6f7fb;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 550px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.register1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid rgba(0,0,0,.2);
+    width: 470px;
+    height: 528px;
+    border-radius: 0.3rem;
+}
+
+#reg1 {
+    background-color: #a37bfd;
+    border-bottom: 0px solid transparent;
+    height: 25px;
+    width: 410px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#reg1 h5 {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 0%;
+    height: 25px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.register2 {
+    width: 410px;
+    height: 387px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.reg2 {
+    width: 410px;
+    height: 50px;
+    margin-bottom: 21px;
+}
+
+.reg2 input {
+    width: 368px;
+    height: 28px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #f1f3f5;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+}
+.reg7 {
+    color: #7e7172;
+    width: 410px;
+    height: 20px;
+    padding-left: 10px;
+}
+.reg3 {
+    width: 358px;
+    height: 21px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid #884ffb;
+    background-color: #884ffb;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.reg3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.reg3:hover a {
+    color: rgb(10, 88, 202);
+}
+
+.reg3:hover {
+    background-color: #884ffb;
+    box-shadow: 0 3px 11px rgba(136, 79, 251, .4);
+}
+
+.reg4 {
+    width: 410px;
+    height: 24px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.reg4 a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.reg5 {
+    width: 410px;
+    height: 44px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.reg5 a {
+    text-decoration: none;
+    color: #707070;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .register1 {
+        width: 260px;
+        height: 508px;
+    }
+
+    #reg1 {
+        width: 200px;
+    }
+
+    #reg1 h5 {
+        width: 82.547px;
+    }
+
+    .register2 {
+        width: 190px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .reg2 {
+        width: 190px;
+    }
+
+    .reg2 input {
+        width: 148px;
+    }
+    .reg7{
+       width: 190px;
+    }
+    .reg3 {
+        width: 138px;
+    }
+
+    .reg4 {
+        width: 190px;
+        height: 44px;
+    }
+
+    .reg5 {
+        width: 190px;
+    }
+
+}
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .register1 {
+        width: 410px;
+        height: 508px;
+    }
+
+    #reg1 {
+        width: 350px;
+    }
+
+    #reg1 h5 {
+        width: 82.547px;
+    }
+
+    .register2 {
+        width: 370px;
+    }
+
+    .reg2 {
+        width: 370px;
+    }
+
+    .reg2 input {
+        width: 328px;
+    }
+    .reg7{
+   width: 370px;
+    }
+    .reg3 {
+        width: 318px;
+    }
+
+    .reg4 {
+        width: 370px;
+    }
+
+    .reg5 {
+        width: 370px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .register1 {
+        width: 700px;
+        height: 528px;
+    }
+    .page {
+        width: 800px;
+    }
+
+    #reg1 {
+        width: 640px;
+    }
+
+    #reg1 h5 {
+        width: 82.547px;
+    }
+
+    .register2 {
+        width: 640px;
+    }
+
+    .reg2 {
+        width: 640px;
+    }
+
+    .reg2 input {
+        width: 598px;
+    }
+    .reg7{
+   width: 640px
+    }
+    .reg3 {
+        width: 588px;
+    }
+
+    .reg4 {
+        width: 640px;
+    }
+
+    .reg5 {
+        width: 640px;
+    }
+
+}

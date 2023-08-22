@@ -1,0 +1,39 @@
+a:any-link {
+    color:red;
+}
+a:link {
+    color:darkolivegreen;
+}
+a:visited {
+    color:cyan;
+}
+a:hover {
+    color:blueviolet;
+}
+a:active {
+    color:coral;
+}
+a:focus {
+    color:crimson;
+}
+.inout:hover {
+    color:darkgreen;
+}
+.inout:focus {
+    color:red;
+}
+button:hover {
+    color:blueviolet;
+}
+table tr td {
+    border-collapse: collapse;
+    border:2px solid grey;
+}
+table tr:nth-child(odd) {
+    color:brown;
+    background-color: aqua;
+}
+tabletr:nth-child(even){
+    color:blueviolet;
+    background-color: cornflowerblue;
+}

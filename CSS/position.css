@@ -1,0 +1,56 @@
+#sam2 {
+    position:fixed;
+    width: 100%;
+    top: 0;
+    background-color: blue;
+    color: black;
+    margin-top: 0px;
+    z-index: 999;
+}
+h1 + p {
+    margin-top: 90px;
+}
+.sam3 {
+    position: sticky;
+    background-color: aqua; 
+    color: black;
+    top: 0;
+    z-index: 999;
+    top: 35px;
+}
+#sam4 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: mediumorchid;
+    color: black;
+    border-radius: 50px;
+}
+.sam5 {
+    position: relative;
+    width: 401px;
+}
+.sam5 button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sam5 img{
+    filter: drop-shadow(2px 4px 6px black);
+}
+body{
+    margin: 0;
+}
+.sam7 {
+    position: relative;
+    width: 284px;
+}
+.sam7 > button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.css45 label{
+    text-transform: capitalize;
+}

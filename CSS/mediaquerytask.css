@@ -1,0 +1,127 @@
+.taskparent {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.media1 {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.taskchild {
+    border: 20px solid orange;
+    background-color: orange;
+    height: 30px;
+    margin: 5px;
+}
+
+.taskchild1 {
+    border: 20px solid greenyellow;
+    background-color: greenyellow;
+    margin: 5px;
+    height: 200px;
+}
+
+.media2 {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+}
+
+.taskchild2 {
+    border: 20px solid skyblue;
+    background-color: skyblue;
+    margin: 5px;
+    height: 120px;
+}
+
+.media3 {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.taskchild3 {
+    border: 20px solid grey;
+    background-color: grey;
+    margin: 5px;
+    height: 60px;
+}
+
+@media only screen and (min-width:0) and (max-width:480px) {
+    .media1 {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .taskchild {
+        height: 3px;
+    }
+
+    .taskchild1 {
+        height: 10px;
+    }
+
+    .media2 {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .taskchild2 {
+        height: 120px;
+    }
+
+    .media3 {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .taskchild3 {
+        height: 3px;
+    }
+}
+@media only screen and (min-width:480px) and (max-width:768px) {
+    .media1 {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .taskchild {
+        height: 5px;
+    }
+
+    .taskchild1 {
+        height: 70px;
+    }
+
+    .media2 {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .taskchild2 {
+        height: 10px;
+    }
+
+    .media3 {
+        grid-template-columns: repeat(2, 50%);
+    }
+    .taskchild3 {
+        height: 20px;
+    }
+}
+@media only screen and (min-width:1024px) {
+    .media1 {
+        grid-template-columns: repeat(2, 50%);
+    }
+    .taskchild {
+        height: 30px;
+    }
+
+    .taskchild1 {
+        height: 200px;
+    }
+
+    .media2 {
+        grid-template-columns: repeat(3, 33.3%);
+    }
+    .taskchild2 {
+        height: 120px;
+    }
+
+    .media3 {
+        grid-template-columns: repeat(4, 25%);
+    }
+    .taskchild3 {
+        height: 60px;
+    }
+}

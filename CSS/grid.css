@@ -1,0 +1,15 @@
+.coffee1 {
+    border: 2px solid red;
+    border-radius: 3px;
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+}
+.coffee img{
+    width: 100%;
+}
+.coffee {
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    justify-content: space-evenly;
+}

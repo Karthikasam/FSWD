@@ -1,0 +1,27 @@
+.elements::after{
+    content:" CSS";
+}
+.elements::before{
+    content:"CLASSES ";
+}
+::marker{
+    color:crimson;
+    font-style: italic;
+}
+.elements::first-letter{
+    color:red;
+}
+.elements::first-line{
+    color:green;
+}
+::selection{
+    color:blueviolet;
+    background-color: aqua;
+}
+input::placeholder{
+    color:chartreuse;
+    font-style: italic;
+}
+.sam:hover{
+    color:darkmagenta;
+}

@@ -1,0 +1,13 @@
+p {
+    color: crimson;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 1px 2px 5px black;
+}
