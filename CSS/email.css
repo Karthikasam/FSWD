@@ -1,0 +1,52 @@
+#sam{
+    margin-top: 15%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    border: 2px solid grey;
+    box-shadow: 10px 10px 5px rgb(64, 129, 93);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#samin{
+    width: 100%;
+    margin-bottom: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+#samin input{
+    padding-right: 10%;
+    padding-left: 13%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    border: 2px solid black;
+}
+#samput input{
+    padding-left: 13%;
+    padding-right: 10%;
+    border: 2px solid black;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+#samput{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 6%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+#samput i{
+    font-size: 20px;
+    padding-left: 3%;
+}
+#logbtn{
+    padding: 1%;
+    border: 2px solid rgb(31, 208, 214);
+}

@@ -1,0 +1,11 @@
+let sam = document.getElementById("emrem")
+sam.innerText = "welcome"
+console.log(sam)
+let su = document.getElementsByClassName("thin")
+console.log(su)
+let  ve= document.getElementsByTagName("i")
+console.log(ve)
+let ce = document.querySelector("#j")
+console.log(ce)
+let z= document.querySelectorAll(".s")
+console.log(z)

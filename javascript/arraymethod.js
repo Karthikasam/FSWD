@@ -1,0 +1,13 @@
+let fruits = [];
+fruits.push("apple", "grapes", "fig", "orange", "kiwi", "grapes", "pomegranate")
+//fruits.unshift("banana")
+//fruits.pop()
+//fruits.shift()
+//fruits.indexOf("grapes")
+//fruits.lastIndexOf("grapes")
+//fruits.includes("kiwi")
+//fruits.includes("guava")
+//fruits.splice(1,0,"strawberry")
+//fruits.splice(1,1,"fig")
+fruits.splice(1, 1)
+console.log(fruits)
